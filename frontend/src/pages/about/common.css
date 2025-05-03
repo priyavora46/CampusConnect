@@ -1,0 +1,246 @@
+.faculty-page {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .faculty-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #004c99;
+    font-weight: 600;
+  }
+  
+  .faculty-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    height: 100%; /* Ensure cards are of equal height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .faculty-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .faculty-card img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .faculty-card-body {
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center content */
+  }
+  
+  .faculty-card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #004c99;
+    font-weight: 600;
+  }
+  
+  .faculty-card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  
+  
+  .about-page {
+    padding: 60px 20px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #004c99;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .about-text {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .about-text:last-child {
+    margin-bottom: 0;
+  }
+  
+  
+  /* Responsive adjustments */
+  @media (max-width: 992px) {
+    .faculty-page {
+      padding: 40px 15px;
+    }
+  
+    .faculty-title {
+      font-size: 2.2rem;
+    }
+  
+    .faculty-card img {
+      height: 500px;
+    }
+    .about-page {
+      padding: 40px 15px;
+    }
+  
+    .about-title{
+          font-size: 2.2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .faculty-page {
+      padding: 30px 10px;
+    }
+  
+    .faculty-title {
+      font-size: 2rem;
+    }
+  
+    .faculty-card img {
+      height: 180px;
+    }
+    .about-page {
+      padding: 30px 10px;
+    }
+      .about-title{
+          font-size: 2rem;
+    }
+  }
+  .vision-page {
+    padding: 60px 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+  }
+  
+  .vision-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #008000; /* A shade of green for vision/mission */
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .vision-mission-title{
+      font-size: 2rem;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      color: #008000;
+      font-weight: 600;
+      text-align: center;
+  }
+  
+  
+  .vision-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444; /* Darker text for better readability */
+    margin-bottom: 25px;
+    text-align: justify; /* Justify the text */
+  }
+  
+  .vision-text:last-child {
+    margin-bottom: 0;
+  }
+  
+  .vision-values-title {
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #008000; /* green */
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .vision-values-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px; /* Limit the width of the list */
+  }
+  
+  .vision-values-list li {
+    margin-bottom: 15px;
+    padding-left: 25px; /* Add space for custom bullet */
+    position: relative; /* Allows for absolute positioning of the custom bullet */
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
+    text-align: left;
+  }
+  
+  .vision-values-list li:before {
+    content: '🌱'; /* Custom bullet character (e.g., a sprout) */
+    position: absolute;
+    left: 0;
+    top: 0; /* Adjust as needed for vertical alignment */
+  }
+  
+  
+  
+  /* Responsive adjustments */
+  @media (max-width: 992px) {
+    .vision-page {
+      padding: 40px 15px;
+    }
+  
+    .vision-title {
+      font-size: 2.2rem;
+    }
+    .vision-mission-title{
+       font-size: 1.8rem;
+    }
+      .vision-values-title{
+       font-size: 1.8rem;
+    }
+    .vision-text {
+      font-size: 1rem;
+    }
+     .vision-values-list li{
+          font-size: 1rem;
+     }
+  }
+  
+  @media (max-width: 768px) {
+    .vision-page {
+      padding: 30px 10px;
+    }
+  
+    .vision-title {
+      font-size: 2rem;
+    }
+     .vision-mission-title{
+       font-size: 1.6rem;
+    }
+     .vision-values-title{
+       font-size: 1.6rem;
+    }
+    .vision-text {
+      font-size: 0.95rem;
+    }
+    .vision-values-list li{
+          font-size: 0.95rem;
+     }
+  }
+  

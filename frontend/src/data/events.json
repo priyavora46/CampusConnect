@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "title": "Tech Hackathon 2025",
+      "description": "A 24-hour coding challenge to solve real-world problems.",
+      "date": "March 27, 2025",
+      "venue": "Marwadi College Auditorium",
+      "image": "/assets/hackathon.jpg"
+    },
+    {
+      "id": 2,
+      "title": "AI & Machine Learning Workshop",
+      "description": "Learn the fundamentals of AI and ML with hands-on experience.",
+      "date": "April 5, 2025",
+      "venue": "Tech Lab 3",
+      "image": "/assets/ai-workshop.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Cyber Security Seminar",
+      "description": "Explore ethical hacking and cybersecurity strategies.",
+      "date": "April 15, 2025",
+      "venue": "Seminar Hall 2",
+      "image": "/assets/cybersecurity.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Cultural Fest 2025",
+      "description": "A celebration of art, music, and dance performances.",
+      "date": "May 10, 2025",
+      "venue": "Main Campus Grounds",
+      "image": "/assets/cultural-fest.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "Entrepreneurship Bootcamp",
+      "description": "A 2-day workshop on how to start and scale a business.",
+      "date": "May 25, 2025",
+      "venue": "Innovation Hub",
+      "image": "/assets/startup-bootcamp.png"
+    },
+    {
+      "id": 6,
+      "title": "Robotics Championship",
+      "description": "Build and compete with your own robot in an exciting challenge.",
+      "date": "June 15, 2025",
+      "venue": "Engineering Block",
+      "image": "/assets/robotics.jpeg"
+    },
+    {
+      "id": 7,
+      "title": "Web Development Bootcamp",
+      "description": "Master front-end and back-end development in a 5-day bootcamp.",
+      "date": "July 5, 2025",
+      "venue": "IT Lab 1",
+      "image": "/assets/web-dev.jpeg"
+    },
+    {
+      "id": 8,
+      "title": "Blockchain & Crypto Conference",
+      "description": "Learn about blockchain technology and cryptocurrency trends.",
+      "date": "July 20, 2025",
+      "venue": "Marwadi Convention Hall",
+      "image": "/assets/blockchain.jpeg"
+    },
+    {
+      "id": 9,
+      "title": "Photography Contest",
+      "description": "Showcase your photography skills in an inter-college contest.",
+      "date": "August 12, 2025",
+      "venue": "Art & Media Center",
+      "image": "/assets/photography-contest.webp"
+    },
+    {
+      "id": 10,
+      "title": "Debate Competition",
+      "description": "Compete in a challenging debate on trending topics.",
+      "date": "August 30, 2025",
+      "venue": "Lecture Hall 5",
+      "image": "/assets/download.jpeg"
+    },
+    {
+      "id": 11,
+      "title": "Gaming Tournament",
+      "description": "Battle in games like Valorant, CS:GO, and FIFA 25.",
+      "date": "September 10, 2025",
+      "venue": "Esports Arena",
+      "image": "/assets/gaming.webp"
+    },
+    {
+      "id": 12,
+      "title": "Art Exhibition",
+      "description": "Display your artistic talent in a grand exhibition.",
+      "date": "September 25, 2025",
+      "venue": "Art Gallery Hall",
+      "image": "/assets/art-exhibition.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Fitness & Yoga Camp",
+      "description": "A week-long camp promoting fitness and mental health.",
+      "date": "October 5, 2025",
+      "venue": "Sports Complex",
+      "image": "/assets/fitness.jpeg"
+    },
+    {
+      "id": 14,
+      "title": "Tech Talks by Industry Experts",
+      "description": "Hear from top industry leaders about future technology trends.",
+      "date": "October 20, 2025",
+      "venue": "Tech Park Auditorium",
+      "image": "/assets/talk.jpeg"
+    },
+    {
+      "id": 15,
+      "title": "Music Concert Night",
+      "description": "Enjoy an evening of music with live performances from bands.",
+      "date": "November 10, 2025",
+      "venue": "Open Air Theatre",
+      "image": "/assets/concert.jpeg"
+    }
+  ]
+  

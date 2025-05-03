@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "company": "Google",
+    "role": "Software Engineer",
+    "package": "₹45 LPA",
+    "location": "Bangalore, India",
+    "image": "/assets/google.png"
+  },
+  {
+    "id": 2,
+    "company": "Microsoft",
+    "role": "Cloud Engineer",
+    "package": "₹40 LPA",
+    "location": "Hyderabad, India",
+    "image": "/assets/microsoft.png"
+  },
+  {
+    "id": 3,
+    "company": "Amazon",
+    "role": "Data Scientist",
+    "package": "₹38 LPA",
+    "location": "Chennai, India",
+    "image": "/assets/amazon.png"
+  },
+  {
+    "id": 4,
+    "company": "Facebook (Meta)",
+    "role": "Full-Stack Developer",
+    "package": "₹42 LPA",
+    "location": "Mumbai, India",
+    "image": "/assets/meta.png"
+  },
+  {
+    "id": 5,
+    "company": "Apple",
+    "role": "iOS Developer",
+    "package": "₹50 LPA",
+    "location": "Pune, India",
+    "image": "/assets/apple.png"
+  },
+  {
+    "id": 6,
+    "company": "TCS",
+    "role": "Software Developer",
+    "package": "₹10 LPA",
+    "location": "Kolkata, India",
+    "image": "/assets/tcs.png"
+  },
+  {
+    "id": 7,
+    "company": "Infosys",
+    "role": "Data Analyst",
+    "package": "₹12 LPA",
+    "location": "Delhi, India",
+    "image": "/assets/infosys.png"
+  },
+  {
+    "id": 8,
+    "company": "Wipro",
+    "role": "AI Engineer",
+    "package": "₹15 LPA",
+    "location": "Noida, India",
+    "image": "/assets/wipro.png"
+  },
+  {
+    "id": 9,
+    "company": "IBM",
+    "role": "Blockchain Developer",
+    "package": "₹22 LPA",
+    "location": "Gurgaon, India",
+    "image": "/assets/ibm.png"
+  },
+  {
+    "id": 10,
+    "company": "Cognizant",
+    "role": "Machine Learning Engineer",
+    "package": "₹18 LPA",
+    "location": "Bangalore, India",
+    "image": "/assets/cognizant.jpeg"
+  },
+  {
+    "id": 11,
+    "company": "Accenture",
+    "role": "Cloud Consultant",
+    "package": "₹16 LPA",
+    "location": "Pune, India",
+    "image": "/assets/accenture.png"
+  },
+  {
+    "id": 12,
+    "company": "Deloitte",
+    "role": "Cyber Security Analyst",
+    "package": "₹14 LPA",
+    "location": "Hyderabad, India",
+    "image": "/assets/deloitte.png"
+  },
+  {
+    "id": 13,
+    "company": "Capgemini",
+    "role": "Software Tester",
+    "package": "₹10 LPA",
+    "location": "Mumbai, India",
+    "image": "/assets/capgemini.png"
+  },
+  {
+    "id": 14,
+    "company": "SAP",
+    "role": "SAP Developer",
+    "package": "₹20 LPA",
+    "location": "Chennai, India",
+    "image": "/assets/sap.png"
+  },
+  {
+    "id": 15,
+    "company": "Oracle",
+    "role": "Database Administrator",
+    "package": "₹22 LPA",
+    "location": "Bangalore, India",
+    "image": "/assets/oracle.png"
+  },
+  {
+    "id": 16,
+    "company": "PayPal",
+    "role": "FinTech Engineer",
+    "package": "₹30 LPA",
+    "location": "Pune, India",
+    "image": "/assets/paypal.png"
+  },
+  {
+    "id": 17,
+    "company": "Adobe",
+    "role": "UI/UX Designer",
+    "package": "₹25 LPA",
+    "location": "Hyderabad, India",
+    "image": "/assets/adobe.png"
+  },
+  {
+    "id": 18,
+    "company": "Zomato",
+    "role": "Android Developer",
+    "package": "₹15 LPA",
+    "location": "Gurgaon, India",
+    "image": "/assets/zomato.png"
+  },
+  {
+    "id": 19,
+    "company": "Swiggy",
+    "role": "Backend Engineer",
+    "package": "₹14 LPA",
+    "location": "Bangalore, India",
+    "image": "/assets/swiggy.png"
+  },
+  {
+    "id": 20,
+    "company": "BYJU'S",
+    "role": "EdTech Engineer",
+    "package": "₹12 LPA",
+    "location": "Delhi, India",
+    "image": "/assets/byjus.png"
+  }
+]

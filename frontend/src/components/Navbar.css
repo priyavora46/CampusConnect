@@ -1,0 +1,61 @@
+/* Navbar Container */
+.navbar {
+  background-color: #007bbd;
+  padding: 12px 24px;
+}
+
+/* Brand Logo */
+.navbar-brand {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+  color: #fff;
+  padding: 8px 12px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #cceeff;
+}
+
+/* Remove box from dropdown button ("About") */
+.navbar-nav .nav-item.dropdown .nav-link {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+  background-color: #007bbd;
+  border: none;
+  margin-top: 0;
+  border-radius: 0;
+  padding: 0;
+}
+
+/* Dropdown Items */
+.dropdown-item {
+  color: #fff;
+  padding: 10px 16px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #005f8d;
+  color: #fff;
+}
+
+/* Toggler (hamburger) icon */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.9%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}

@@ -1,0 +1,101 @@
+/* Events.css */
+
+.events-container {
+    padding: 40px 20px;
+    background-color: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+  }
+  
+  .events-container h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #004b91;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 2px #ccc;
+  }
+  
+  .events-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 0 10px;
+  }
+  
+  .event-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .event-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 3px solid #0077cc;
+  }
+  
+  .event-card h2 {
+    margin: 15px 10px 10px;
+    font-size: 1.4rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .event-card p {
+    margin: 5px 20px;
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .register-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-btn:hover {
+    background-color: #005fa3;
+  }
+  .modal {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background: rgba(0,0,0,0.5);
+    display: flex; justify-content: center; align-items: center;
+    z-index: 1000;
+  }
+  
+  .registration-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registration-form input, .registration-form button {
+    margin: 8px 0;
+    padding: 10px;
+  }
+  

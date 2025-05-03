@@ -1,0 +1,165 @@
+.admission-form-section {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.admission-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #007bff;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="tel"]:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.fee-info {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: green;
+}
+
+.upload-documents {
+  margin-top: 25px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.upload-documents h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+
+.upload-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 15px;
+  align-items: center; /* Vertically align items */
+}
+
+.upload-controls select,
+.upload-controls input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  flex: 1; /* Allow them to grow and share space */
+  min-width: 200px; /* minimum width */
+}
+.upload-controls button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.upload-controls button:hover {
+    background-color: #0056b3;
+}
+
+
+.document-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.document-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 10px;
+  border-bottom: 1px dotted #eee;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.document-list li:last-child {
+  border-bottom: none;
+}
+
+.remove-doc {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+
+.remove-doc:hover {
+  background-color: #d32f2f;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+  margin-top: 25px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+
+.submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.form-group input.error,
+.form-group select.error{
+    border-color: red;
+}
+.form-group .error-message{
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
